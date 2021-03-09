@@ -1,0 +1,12 @@
+.webCapture {
+  position: relative;
+}
+.webCapture__button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  color: white;
+  font-size: 40px !important;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,31 @@
+.singleChat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+}
+.singlechat__info {
+  flex: 1;
+  padding-left: 5px;
+}
+.singlechat__info > h4 {
+  font-size: 11px !important;
+  font-weight: 800 !important;
+}
+.singlechat__info > p {
+  font-size: 9px !important ;
+  margin-top: 2px;
+}
+.singlechat__stop {
+  color: #ed3b55;
+}
+.singleChat__avatar {
+  height: 30px !important;
+  width: 30px !important;
+}
+.singleChat:hover {
+  opacity: 0.8;
+}

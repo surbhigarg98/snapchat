@@ -1,0 +1,40 @@
+.preview {
+  position: relative;
+}
+.preview__close {
+  position: absolute;
+  margin: 5px;
+  top: 0;
+  color: white;
+  cursor: pointer;
+}
+.preview__tools {
+  position: absolute;
+  right: 0;
+  color: white;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.preview__tools > .MuiSvgIcon-root {
+  font-size: 20px !important;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.preview__footer {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  right: 0px;
+  background-color: #2087b1;
+  border-radius: 200px;
+  width: fit-content;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 6px;
+  cursor: pointer;
+}
+.sendIcon {
+  color: white;
+}

@@ -1,0 +1,78 @@
+.chat {
+  position: relative;
+  width: 250px;
+  height: 400px;
+}
+.chat_avatar {
+  height: 25px !important;
+  width: 25px !important;
+  cursor: pointer;
+}
+.chat__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #059ee0;
+  height: 50px;
+}
+.chatHeader__search {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding-left: 6px;
+  align-items: center;
+}
+.chatHeader__search > input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+
+  flex: 1;
+  color: white;
+}
+.chatHeader__search > input::placeholder {
+  opacity: 1;
+  color: white;
+  font-size: 12px;
+}
+.chat__box {
+  box-shadow: 1px -7px 7px -6px rgba(0, 0, 0, 0.5);
+  height: 359px;
+  margin-top: -9px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: scroll;
+}
+.chatSearch__icon {
+  color: white;
+  font-size: 20px !important;
+}
+.chatBubbleIcon {
+  color: white;
+  font-size: 20px !important;
+}
+.chat__box {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.chat__box::-webkit-scrollbar {
+  display: none;
+}
+.chatRadio__button {
+  background-color: white;
+  color: grey;
+  border-radius: 200px;
+  cursor: pointer;
+  font-size: 40px !important;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.chatRadio__button:hover {
+  opacity: 0.6;
+}
